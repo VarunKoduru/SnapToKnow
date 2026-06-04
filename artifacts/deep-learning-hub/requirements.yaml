@@ -1,0 +1,14 @@
+packages:
+  "react-dropzone": "For robust drag-and-drop image uploading"
+  "framer-motion": "For smooth transitions between upload and result states"
+  "lucide-react": "For beautiful consistent icons"
+
+images:
+  - path: "artifacts/deep-learning-hub/public/images/hero-bg.png"
+    description: "Abstract fluid gradient background with warm earthy tones, saffron, terracotta, turmeric, and subtle warm light leaks, clean modern aesthetic"
+    aspect_ratio: "16:9"
+
+notes:
+  - "FastAPI backend handles all requests directly at /ml-api"
+  - "Using TanStack Query with fetch to communicate with FastAPI endpoints"
+  - "Using framer-motion for step transitions"

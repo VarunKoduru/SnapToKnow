@@ -1,0 +1,14 @@
+[project]
+name = "repl-nix-workspace"
+version = "0.1.0"
+description = "Add your description here"
+requires-python = ">=3.11"
+dependencies = [
+    "fastapi>=0.135.2",
+    "numpy>=2.4.3",
+    "opencv-python-headless>=4.13.0.92",
+    "pillow>=12.1.1",
+    "python-multipart>=0.0.22",
+    "tensorflow-cpu>=2.21.0",
+    "uvicorn[standard]>=0.42.0",
+]
